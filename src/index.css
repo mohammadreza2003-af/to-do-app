@@ -1,0 +1,164 @@
+/* Add this to your styles.css file */
+
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Container Styles */
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Styles */
+.nav-bar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Main Content Styles */
+.main {
+  padding: 20px;
+}
+
+/* Task Box Styles */
+.box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* List Styles */
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Task Number Styles */
+.li-num {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Task Details Styles */
+.span-task {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+
+/* Close Button Styles */
+.close {
+  cursor: pointer;
+  color: #cc0000;
+  font-size: 18px;
+}
+
+/* Button Container Styles */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add Task Button Styles */
+.btn-add {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #45a049;
+}
+
+/* Reset Button Styles */
+.btn-reset {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-reset:hover {
+  background-color: #d32f2f;
+}
+
+/* Form Styles */
+.task-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Label Styles */
+.label-task {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Textarea Styles */
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Input Styles */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Submit Button Styles */
+.btn-submit {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0b7dda;
+}
+footer {
+  text-align: center;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
